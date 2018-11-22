@@ -51,8 +51,6 @@ After we obtain a map of the navigable terrain, we need to convert it to rover-c
 
  Now, we can mark the map of navigable terrain in rover-centric coordinates to world coordinates. To do this, we can use a rotation followed by a translation.
 
-![alt text][image2]
-
 ### Autonomous Navigation and Mapping
 
 #### 1. Fill in the `perception_step()` (at the bottom of the `perception.py` script) and `decision_step()` (in `decision.py`) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
@@ -72,11 +70,11 @@ I have used the following environment to run this project:
 - FPS output : 37~41
 
 Result
-Mapped: 42.5%
-Fidelity 60.9%
-Sample collected 3
-Time : 70.3s
-Result video : [link][result_video]
+- Mapped: 42.5%
+- Fidelity 60.9%
+- Sample collected 3
+- Time : 70.3s
+- Result video : [LINK][result_video]
 
 ![Result][result]
 
